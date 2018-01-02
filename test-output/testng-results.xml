@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10733" started-at="2017-11-22T05:39:28Z" finished-at="2017-11-22T05:39:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10733" started-at="2017-11-22T05:39:28Z" finished-at="2017-11-22T05:39:38Z">
+      <class name="Lazada_Test.TestSuite">
+        <test-method status="FAIL" signature="NotEqual()[pri:0, instance:Lazada_Test.TestSuite@1e397ed7]" name="NotEqual" duration-ms="0" started-at="2017-11-22T12:39:28Z" finished-at="2017-11-22T12:39:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at Lazada_Test.TestSuite.NotEqual(TestSuite.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotEqual -->
+        <test-method status="PASS" signature="Equal()[pri:0, instance:Lazada_Test.TestSuite@1e397ed7]" name="Equal" duration-ms="0" started-at="2017-11-22T12:39:28Z" finished-at="2017-11-22T12:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Equal -->
+        <test-method status="PASS" signature="openWeb()[pri:0, instance:Lazada_Test.TestSuite@1e397ed7]" name="openWeb" duration-ms="10682" started-at="2017-11-22T12:39:28Z" finished-at="2017-11-22T12:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWeb -->
+      </class> <!-- Lazada_Test.TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
